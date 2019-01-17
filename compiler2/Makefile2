@@ -1,0 +1,18 @@
+CC=g++
+
+all:	kompilator
+
+kompilator:	parser.tab.c lex.yy.c
+	$(CC) -c parser.tab.c
+	$(CC) -c lex.yy.c
+	$(CC) -o kompilator parser.tab.c lex.yy.c functions.cpp -lfl
+
+lex.yy.c: lexer.l
+	flex flex.l
+
+bison.tab.c: parser.y
+	parser -d -o parser.tab.c parser.y
+
+clean:
+	rm lex.yy.c bison.tab.c lex.yy.o bison.tab.h bison.tab.o
+

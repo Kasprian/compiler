@@ -7,7 +7,7 @@
 ## Pliki
 - parser.y - plik Bizona
 - lexer.l - plik Flexa
-- functions.cpp - dodatkowe funkcje żuyte w parserze
+- functions.cpp - dodatkowe funkcje użyte w parserze
 - functions.h - plik nagłówkowy functions.cpp
 - Makefile - służy do skompilownaia programu
 

@@ -19,7 +19,7 @@
 
 ## Sposób uruchomienia
 W celu skompilowania projektu należy wykonać polecenie make.
-Kompilator uruchamia się komendą `./komilator. Jako pierwszy argument program przyjmuje nazwę programu. Drugi argument 
+Kompilator uruchamia się komendą `./kompilator. Jako pierwszy argument program przyjmuje nazwę programu. Drugi argument 
 
 Przykładowy sposób wywołania dla pliku wejśiowego `program0.imp` i pliku wynikowego `wynik` :
 

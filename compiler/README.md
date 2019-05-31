@@ -23,4 +23,4 @@ Przykładowy sposób wywołania dla pliku wejśiowego `program0.imp` i pliku wyn
 
 ```./kompilator program0.imp wynik```
 
-Następnie należy użyc maszynę rejestrową do skompilowania kodu pośredniego z pliku 'wynik'.
+Następnie należy przy pomocy maszyny rejestrowej skompilować kodu pośredni z pliku 'wynik'.

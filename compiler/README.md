@@ -2,8 +2,6 @@
 
 *Autor: Piotr Kasprowicz*
 
-*Nr albumu: 236609*
-
 ## Pliki
 - parser.y - plik Bizona
 - lexer.l - plik Flexa
